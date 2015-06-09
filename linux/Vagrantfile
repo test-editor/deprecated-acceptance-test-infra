@@ -67,7 +67,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update
-     sudo apt-get install -y xvfb
+     sudo apt-get install -y xvfb unzip
      Xvfb :99 -ac -screen 0 1280x1024x16 &
    SHELL
 end
