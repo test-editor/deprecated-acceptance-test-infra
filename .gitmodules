@@ -1,0 +1,3 @@
+[submodule "ws/test-editor-tests"]
+	path = ws/test-editor-tests
+	url = https://github.com/test-editor/test-editor-tests
