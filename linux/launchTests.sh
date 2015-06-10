@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -Rf /vagrant/testeditor -y
 unzip /vagrant/TestEditor_JRE-linux.gtk.x86_64.zip -d /vagrant/testeditor
 chmod ugo+x /vagrant/testeditor/jre/bin/java
 chmod ugo+x /vagrant/testeditor/testeditor
